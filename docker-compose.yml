@@ -5,6 +5,7 @@ networks:
     driver: ${NETWORKS_DRIVER}
   backend:
     driver: ${NETWORKS_DRIVER}
+volumes:
   docker-in-docker:
     driver: ${VOLUMES_DRIVER}
 
